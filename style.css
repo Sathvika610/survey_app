@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.welcome-screen, .survey-screen, .thank-you-screen {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.survey-screen, .thank-you-screen {
+  text-align: center;
+}
+
+.rating, textarea {
+  margin: 10px 0;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+* {
+  background-color: powderblue;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome-screen">
+        <h1>Customer Survey</h1>
+        <button id="start-btn" style="margin-left: 130px; background-color: pink;">Start Survey</button>
+    </div>
+
+    <div class="survey-screen" style="display: none;">
+        <h2>Question <span id="current-question">1</span></h2>
+        <p id="question-text"></p>
+        <div class="rating">
+            <input type="radio" name="rating" value="1">1
+            <input type="radio" name="rating" value="2">2
+            <input type="radio" name="rating" value="3">3
+            <input type="radio" name="rating" value="4">4
+            <input type="radio" name="rating" value="5">5
+        </div>
+        <textarea id="text-answer" placeholder="Enter your answer"></textarea>
+        <div class="nav-buttons">
+            <button id="prev-btn">Previous</button>
+            <button id="next-btn">Next</button>
+            <button id="skip-btn">Skip</button>
+        </div>
+        <button id="submit-btn" style="display: none;">Submit Survey</button>
+    </div>
+
+    <div class="thank-you-screen" style="display: none;">
+        <h2>Thank you for your time!</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
